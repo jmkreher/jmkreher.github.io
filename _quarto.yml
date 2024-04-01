@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: ""
+  navbar:
+    search: true
+    left:
+      - text: "Zentrum"
+        file: index.qmd
+      - file: lebenslauf.qmd
+      - file: vision.qmd
+      - file: zukunft.qmd
+      - file: miteinander.qmd
+# sidebar:
+#     collapse-level: 1
+#     style: "floating"
+#     contents:
+#       - text: "About"
+#         file: index.qmd
+#       - text: PSD
+#         file: psd.qmd
+#       - file: vision.qmd
+#       - file: zukunft.qmd
+#       - file: miteinander.qmd
+format:
+  html:
+    theme: minty # themes: https://quarto.org/docs/output-formats/html-themes.html
+    css: styles.css
+    toc: true
+
+
+

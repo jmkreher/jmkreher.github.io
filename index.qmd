@@ -1,0 +1,15 @@
+---
+title: "Zentrum"
+about:
+    template: jolla # other templates: https://quarto.org/docs/websites/website-about.html
+    links:
+        - text: "{{< fa envelope >}} Email"
+          url: mailto:krej@zhaw.ch
+        - icon: instagram 
+          text: Instagram
+          url: https://www.instagram.com/johannamarie.k/ 
+image: images/jojo.jpg
+comments: false
+---
+
+Kleiner Text
